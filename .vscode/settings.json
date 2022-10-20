@@ -1,0 +1,20 @@
+{
+    "jenkins-runner.jobs":{
+       "ide":{
+          "isDefault":true,
+          "runWith":"pipelines-9080",
+          "name":"ide"
+       }
+    },
+    "jenkins-runner.hostConfigs":{
+       "pipelines-9080":{
+          "url":"http://localhost:9080",
+          "user":"admin",
+          "password":"CZpassword2022",
+          "useCrumbIssuer":true
+       }
+   },
+   "files.exclude": {
+      "**/.git": false
+   }
+ }
